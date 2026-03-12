@@ -53,10 +53,13 @@ export function KeunggulanSection({ dictionary }: KeunggulanSectionProps) {
         {/* Tab switcher */}
         <div className="mt-8 flex items-center justify-center" data-aos="fade-up" data-aos-delay="150">
           <div
-            className="relative inline-flex rounded-[54px] p-1"
+            className="relative inline-flex"
             style={{
+              width: "min(648px, 90vw)",
+              height: "66px",
               background: "linear-gradient(94.64deg, #EDEDED -31.72%, #FFFFFF 89.99%)",
-              minWidth: "clamp(320px, 40vw, 648px)",
+              borderRadius: "54px",
+              padding: "6px",
             }}
           >
             {tabs.map((tab, index) => (
@@ -64,8 +67,9 @@ export function KeunggulanSection({ dictionary }: KeunggulanSectionProps) {
                 key={tab.label}
                 type="button"
                 onClick={() => setActiveIndex(index)}
-                className="relative flex-1 rounded-[54px] py-3 px-6 transition-all"
+                className="relative flex-1 flex items-center justify-center rounded-[54px] px-6 transition-all"
                 style={{
+                  height: "100%",
                   fontFamily: "Poppins, sans-serif",
                   fontSize: "clamp(14px, 1.1vw, 20px)",
                   fontWeight: activeIndex === index ? 500 : 400,

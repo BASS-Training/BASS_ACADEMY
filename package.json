@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@fontsource/poppins": "^5.2.7",
     "animejs": "^4.3.6",
     "aos": "^2.3.4",
     "lucide-react": "^0.545.0",

@@ -42,6 +42,7 @@ export function Navbar({ locale, dictionary }: NavbarProps) {
               src="/logo/logo1 1.png"
               alt="BASS Academy"
               fill
+              sizes="155px"
               className="object-contain object-left"
               priority
             />

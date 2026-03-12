@@ -170,6 +170,7 @@ export function HeroSection({ dictionary }: HeroSectionProps) {
                 alt="BASS Academy"
                 fill
                 priority
+                sizes="(max-width: 1024px) 0px, 50vw"
                 className="object-contain object-center"
               />
             </div>
