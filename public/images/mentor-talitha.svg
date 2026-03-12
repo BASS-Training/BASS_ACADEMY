@@ -1,0 +1,12 @@
+<svg width="800" height="900" viewBox="0 0 800 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="900" fill="#F4F4F4"/>
+  <circle cx="617" cy="177" r="104" fill="#C1121F" fill-opacity="0.18"/>
+  <circle cx="400" cy="277" r="119" fill="#F0C2A7"/>
+  <rect x="227" y="367" width="348" height="378" rx="158" fill="#7E0011"/>
+  <path d="M295 261C321.451 211.954 358.921 191 409.629 191C461.757 191 499.133 214.793 518 263" stroke="#0F172A" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="354" cy="282" r="11" fill="#0F172A"/>
+  <circle cx="451" cy="282" r="11" fill="#0F172A"/>
+  <path d="M362 340C382.067 354.476 404.262 361 428.586 361C451.333 361 471.138 354.476 488 341" stroke="#FFC71D" stroke-width="10" stroke-linecap="round"/>
+  <rect x="170" y="731" width="460" height="107" rx="28" fill="white"/>
+  <text x="220" y="794" fill="#0F172A" font-family="Arial, sans-serif" font-size="42" font-weight="700">Learning</text>
+</svg>

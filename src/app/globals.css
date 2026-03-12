@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #ffffff;
+  --color-foreground: #0f172a;
+  --color-muted-foreground: #374151;
+  --color-primary: #c1121f;
+  --color-primary-dark: #7e0011;
+  --color-accent-gold: #f7dc8b;
+  --color-accent-yellow: #ffc71d;
+  --color-surface: #f4f4f4;
+  --color-line: #d7cfcf;
+  --color-soft: #ededed;
+  --color-danger-soft: #d87878;
+  --font-sans: var(--font-poppins), "Poppins", "Segoe UI", sans-serif;
+  --font-display: var(--font-poppins), "Poppins", "Segoe UI", sans-serif;
+  --shadow-panel: 0 20px 60px rgba(15, 23, 42, 0.12);
+  --shadow-soft: 0 16px 40px rgba(15, 23, 42, 0.08);
+  --radius-panel: 1.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #ffffff;
+  color: #0f172a;
+  font-family: var(--font-poppins), "Poppins", sans-serif;
+}
+
+a,
+button {
+  transition:
+    color 150ms ease,
+    background-color 150ms ease,
+    border-color 150ms ease,
+    transform 150ms ease,
+    box-shadow 150ms ease;
+}
+
+::selection {
+  background: rgba(193, 18, 31, 0.18);
+}
+
+.container-shell {
+  margin-inline: auto;
+  width: min(100% - 1.5rem, 72rem);
+}
+
+.section-padding {
+  padding-block: 4.5rem;
+}
+
+.section-brand-bg {
+  background-image: url("/images/WEBSITE BASS (2) 1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-glass {
+  backdrop-filter: blur(16px);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.82));
+}

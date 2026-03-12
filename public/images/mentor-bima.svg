@@ -1,0 +1,12 @@
+<svg width="800" height="900" viewBox="0 0 800 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="900" fill="#F4F4F4"/>
+  <circle cx="151" cy="188" r="98" fill="#F7DC8B"/>
+  <circle cx="400" cy="277" r="120" fill="#E9BB9B"/>
+  <rect x="225" y="367" width="351" height="386" rx="160" fill="#C1121F"/>
+  <path d="M293 252C311.756 209.723 351.346 187 410.54 187C463.187 187 499.622 209.584 519 253" stroke="#0F172A" stroke-width="26" stroke-linecap="round"/>
+  <circle cx="353" cy="283" r="12" fill="#0F172A"/>
+  <circle cx="451" cy="283" r="12" fill="#0F172A"/>
+  <path d="M365 338C385.661 354.565 406.748 362 428.306 362C449.874 362 469.106 355.442 486 342" stroke="#7E0011" stroke-width="10" stroke-linecap="round"/>
+  <rect x="171" y="734" width="458" height="104" rx="28" fill="white"/>
+  <text x="236" y="797" fill="#0F172A" font-family="Arial, sans-serif" font-size="42" font-weight="700">Analytics</text>
+</svg>

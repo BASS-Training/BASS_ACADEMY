@@ -1,0 +1,16 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1200" rx="64" fill="#1B1B1B"/>
+  <circle cx="817" cy="275" r="164" fill="#FFC71D" fill-opacity="0.85"/>
+  <circle cx="318" cy="965" r="180" fill="#C1121F" fill-opacity="0.5"/>
+  <rect x="171" y="159" width="858" height="882" rx="44" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.18" stroke-width="6"/>
+  <rect x="258" y="748" width="388" height="141" rx="24" fill="#F7DC8B"/>
+  <path d="M487 315C487 244.86 543.86 188 614 188C684.14 188 741 244.86 741 315V403H487V315Z" fill="#D87878"/>
+  <rect x="455" y="388" width="319" height="390" rx="159.5" fill="#C1121F"/>
+  <circle cx="614" cy="343" r="104" fill="#F1C1A5"/>
+  <path d="M550 334C560.283 334 568.75 325.533 568.75 315.25C568.75 304.967 560.283 296.5 550 296.5C539.717 296.5 531.25 304.967 531.25 315.25C531.25 325.533 539.717 334 550 334Z" fill="#0F172A"/>
+  <path d="M678 334C688.283 334 696.75 325.533 696.75 315.25C696.75 304.967 688.283 296.5 678 296.5C667.717 296.5 659.25 304.967 659.25 315.25C659.25 325.533 667.717 334 678 334Z" fill="#0F172A"/>
+  <path d="M551 271C567.282 245.422 592.675 230 627.182 230C665.818 230 692.686 246.843 707 279" stroke="#0F172A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M566 390C588.052 408.725 608.535 417 627.448 417C648.251 417 668.435 408.716 688 390" stroke="#7E0011" stroke-width="12" stroke-linecap="round"/>
+  <rect x="713" y="758" width="222" height="118" rx="24" fill="white" fill-opacity="0.12"/>
+  <text x="760" y="823" fill="white" font-family="Arial, sans-serif" font-size="44" font-weight="700">BASS</text>
+</svg>
