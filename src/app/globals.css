@@ -12,8 +12,8 @@
   --color-line: #d7cfcf;
   --color-soft: #ededed;
   --color-danger-soft: #d87878;
-  --font-sans: var(--font-poppins), "Poppins", "Segoe UI", sans-serif;
-  --font-display: var(--font-poppins), "Poppins", "Segoe UI", sans-serif;
+  --font-sans: "Poppins", "Segoe UI", sans-serif;
+  --font-display: "Poppins", "Segoe UI", sans-serif;
   --shadow-panel: 0 20px 60px rgba(15, 23, 42, 0.12);
   --shadow-soft: 0 16px 40px rgba(15, 23, 42, 0.08);
   --radius-panel: 1.5rem;
@@ -31,7 +31,7 @@ body {
   min-height: 100vh;
   background: #ffffff;
   color: #0f172a;
-  font-family: var(--font-poppins), "Poppins", sans-serif;
+  font-family: "Poppins", "Segoe UI", sans-serif;
 }
 
 a,
