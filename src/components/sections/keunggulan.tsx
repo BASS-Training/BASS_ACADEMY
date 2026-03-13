@@ -39,12 +39,7 @@ export function KeunggulanSection({ dictionary }: KeunggulanSectionProps) {
             lineHeight: "78px",
             fontWeight: 800,
             maxWidth: "1193px",
-            background:
-              "linear-gradient(282.56deg, #D87878 -34.06%, #C1121F 60.28%, #7E0011 142.73%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            backgroundClip: "text",
-            filter: "drop-shadow(4px 5px 4px rgba(0,0,0,0.15))",
+            color: "#1a1a1a",
           }}
         >
           Keunggulan Program Pelatihan BASS ACADEMY
