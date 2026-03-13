@@ -39,7 +39,12 @@ export function KeunggulanSection({ dictionary }: KeunggulanSectionProps) {
             lineHeight: "78px",
             fontWeight: 800,
             maxWidth: "1193px",
-            color: "#1a1a1a",
+            background:
+              "linear-gradient(135deg, #FFC71D, #D4A017)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            backgroundClip: "text",
+            filter: "drop-shadow(4px 5px 4px rgba(0,0,0,0.15))",
           }}
         >
           Keunggulan Program Pelatihan BASS ACADEMY
@@ -98,7 +103,7 @@ export function KeunggulanSection({ dictionary }: KeunggulanSectionProps) {
           style={{
             maxWidth: "1424px",
             borderRadius: "54px",
-            background: "linear-gradient(98.67deg, #B00E1C 11.55%, #C72E37 48.76%, #CC454B 101.55%)",
+            background: "linear-gradient(98.67deg, #8B6914 11.55%, #C49A10 48.76%, #FFC71D 101.55%)",
             padding: "clamp(32px, 4vw, 60px) clamp(24px, 5vw, 80px)",
           }}
         >
@@ -169,7 +174,7 @@ export function KeunggulanSection({ dictionary }: KeunggulanSectionProps) {
                 >
                   <span
                     className="font-semibold"
-                    style={{ color: "#F7DC8B", fontFamily: "Poppins, sans-serif" }}
+                    style={{ color: "#ffffff", fontFamily: "Poppins, sans-serif" }}
                   >
                     {label}
                   </span>

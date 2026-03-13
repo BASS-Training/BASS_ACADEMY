@@ -62,7 +62,7 @@ export function WhyBassSection({ dictionary }: WhyBassSectionProps) {
                   fontSize: "clamp(26px, 3vw, 45px)",
                   lineHeight: "78px",
                   background:
-                    "linear-gradient(282.56deg, #D87878 -34.06%, #C1121F 60.28%, #7E0011 142.73%)",
+                    "linear-gradient(282.56deg, #F7DC8B -34.06%, #FFC71D 60.28%, #D4A017 142.73%)",
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
                   backgroundClip: "text",
@@ -90,7 +90,7 @@ export function WhyBassSection({ dictionary }: WhyBassSectionProps) {
                   {/* Red bullet vector */}
                   <span className="absolute -left-10 shrink-0" style={{ top: "50%", transform: "translateY(-50%)" }}>
                     <svg width="30" height="28" viewBox="0 0 30 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M30 13.9933L26.6727 10.2742L27.1364 5.35117L22.2136 4.25418L19.6364 0L15 1.95318L10.3636 0L7.78636 4.25418L2.86364 5.33779L3.32727 10.2609L0 13.9933L3.32727 17.7124L2.86364 22.6488L7.78636 23.7458L10.3636 28L15 26.0334L19.6364 27.9866L22.2136 23.7324L27.1364 22.6354L26.6727 17.7124L30 13.9933ZM12.2727 20.6823L6.81818 15.3311L8.74091 13.4448L12.2727 16.8963L21.2591 8.08027L23.1818 9.97993L12.2727 20.6823Z" fill="#C1121F"/>
+                      <path d="M30 13.9933L26.6727 10.2742L27.1364 5.35117L22.2136 4.25418L19.6364 0L15 1.95318L10.3636 0L7.78636 4.25418L2.86364 5.33779L3.32727 10.2609L0 13.9933L3.32727 17.7124L2.86364 22.6488L7.78636 23.7458L10.3636 28L15 26.0334L19.6364 27.9866L22.2136 23.7324L27.1364 22.6354L26.6727 17.7124L30 13.9933ZM12.2727 20.6823L6.81818 15.3311L8.74091 13.4448L12.2727 16.8963L21.2591 8.08027L23.1818 9.97993L12.2727 20.6823Z" fill="#D4A017"/>
                     </svg>
                   </span>
                   <p

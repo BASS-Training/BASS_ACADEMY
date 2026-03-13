@@ -60,8 +60,8 @@ export function Navbar({ locale, dictionary }: NavbarProps) {
                 className={`
                   relative px-4 py-2 text-[15px] font-medium transition-colors rounded-md
                   ${active
-                    ? "text-[#C1121F]"
-                    : "text-gray-600 hover:text-[#C1121F] hover:bg-red-50"
+                    ? "text-[#D4A017]"
+                    : "text-gray-600 hover:text-[#D4A017] hover:bg-yellow-50"
                   }
                 `}
                 style={{ fontFamily: "Poppins, sans-serif" }}
@@ -69,7 +69,7 @@ export function Navbar({ locale, dictionary }: NavbarProps) {
                 {item.label}
                 {/* Active underline indicator */}
                 {active && (
-                  <span className="absolute bottom-0 left-4 right-4 h-[2px] rounded-full bg-[#C1121F]" />
+                  <span className="absolute bottom-0 left-4 right-4 h-[2px] rounded-full bg-[#D4A017]" />
                 )}
               </Link>
             );
@@ -89,7 +89,7 @@ export function Navbar({ locale, dictionary }: NavbarProps) {
                 className={`
                   rounded-full px-3 py-1.5 text-xs font-semibold uppercase transition-colors
                   ${locale === item
-                    ? "bg-[#C1121F] text-white shadow-sm"
+                    ? "bg-[#FFC71D] text-[#1a0a00] shadow-sm"
                     : "text-gray-500 hover:text-gray-700"
                   }
                 `}
@@ -103,7 +103,7 @@ export function Navbar({ locale, dictionary }: NavbarProps) {
           {/* CTA Button */}
           <Link
             href="/kontak"
-            className="inline-flex items-center justify-center rounded-full bg-[#C1121F] px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-[#a00e18] active:scale-95"
+            className="inline-flex items-center justify-center rounded-full bg-[#FFC71D] px-5 py-2.5 text-sm font-semibold text-[#1a0a00] shadow-sm transition-colors hover:bg-[#D4A017] active:scale-95"
             style={{ fontFamily: "Poppins, sans-serif" }}
           >
             {dictionary.navigation.cta}
@@ -137,7 +137,7 @@ export function Navbar({ locale, dictionary }: NavbarProps) {
                     className={`
                       rounded-lg px-4 py-3 text-[15px] font-medium transition-colors
                       ${active
-                        ? "bg-red-50 text-[#C1121F] font-semibold"
+                        ? "bg-yellow-50 text-[#D4A017] font-semibold"
                         : "text-gray-600 hover:bg-gray-50 hover:text-gray-900"
                       }
                     `}
@@ -160,7 +160,7 @@ export function Navbar({ locale, dictionary }: NavbarProps) {
                     className={`
                       rounded-full px-3 py-1.5 text-xs font-semibold uppercase transition-colors
                       ${locale === item
-                        ? "bg-[#C1121F] text-white shadow-sm"
+                        ? "bg-[#FFC71D] text-[#1a0a00] shadow-sm"
                         : "text-gray-500"
                       }
                     `}
@@ -173,7 +173,7 @@ export function Navbar({ locale, dictionary }: NavbarProps) {
               <Link
                 href="/kontak"
                 onClick={() => setIsOpen(false)}
-                className="inline-flex flex-1 items-center justify-center rounded-full bg-[#C1121F] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#a00e18]"
+                className="inline-flex flex-1 items-center justify-center rounded-full bg-[#FFC71D] px-5 py-2.5 text-sm font-semibold text-[#1a0a00] transition-colors hover:bg-[#D4A017]"
                 style={{ fontFamily: "Poppins, sans-serif" }}
               >
                 {dictionary.navigation.cta}

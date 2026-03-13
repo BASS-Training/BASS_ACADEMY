@@ -87,7 +87,7 @@ export function HeroSection({ dictionary }: HeroSectionProps) {
                 fontSize: "clamp(72px, 8.5vw, 160px)",
                 lineHeight: "1.0",
                 background:
-                  "linear-gradient(282.56deg, #D87878 -34.06%, #C1121F 60.28%, #7E0011 142.73%)",
+                 "linear-gradient(282.56deg, #F7DC8B -34.06%, #D4A017 60.28%, #8B6914 142.73%)",        
                 WebkitBackgroundClip: "text",
                 WebkitTextFillColor: "transparent",
                 backgroundClip: "text",
@@ -122,14 +122,14 @@ export function HeroSection({ dictionary }: HeroSectionProps) {
                 style={{
                   width: "224px",
                   height: "72px",
-                  background: "#C1121F",
+                  background: "linear-gradient(135deg, #FFC71D, #D4A017)",
                   boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)",
                   borderRadius: "9px",
                   fontFamily: "Poppins, sans-serif",
                   fontWeight: 600,
                   fontSize: "clamp(16px, 1.1vw, 20px)",
                   lineHeight: "30px",
-                  color: "#FFFFFF",
+                  color: "#1a0a00",
                   textDecoration: "none",
                 }}
               >
