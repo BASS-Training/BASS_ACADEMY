@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 
@@ -15,13 +16,15 @@ export function Footer({ dictionary }: FooterProps) {
     <footer className="border-t border-line bg-foreground py-14 text-white">
       <div className="container-shell grid gap-10 lg:grid-cols-[1.1fr_0.65fr_0.85fr_0.7fr]">
         <div>
-          <div className="flex items-center gap-3">
-            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary text-lg font-bold">
-              BA
-            </div>
-            <div>
-              <p className="font-display text-lg font-semibold">BASS Academy</p>
-              <p className="text-sm text-white/65">Education and Training Institution</p>
+          <div className="flex items-center">
+            <div className="relative h-[120px] w-[112px]">
+              <Image
+                src="/logo/logo1 1.png"
+                alt="BASS Academy"
+                fill
+                sizes="112px"
+                className="object-contain object-left"
+              />
             </div>
           </div>
           <p className="mt-5 max-w-md text-sm leading-7 text-white/70">
