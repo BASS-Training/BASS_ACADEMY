@@ -18,16 +18,4 @@ export const mentors: Mentor[] = [
     description: "Membimbing peserta memahami workflow engineering modern dan standar industri.",
     image: "/images/mentor-rizky.svg",
   },
-  {
-    name: "Talitha Ayu",
-    role: "Learning Experience Specialist",
-    description: "Fokus pada kurikulum, asesmen berbasis kompetensi, dan evaluasi pembelajaran.",
-    image: "/images/mentor-talitha.svg",
-  },
-  {
-    name: "Bima Kurniawan",
-    role: "Data & Business Analyst",
-    description: "Mengintegrasikan studi kasus bisnis nyata ke dalam program pelatihan teknis.",
-    image: "/images/mentor-bima.svg",
-  },
 ];

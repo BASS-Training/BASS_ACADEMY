@@ -21,7 +21,7 @@ export function Footer({ dictionary }: FooterProps) {
             </div>
             <div>
               <p className="font-display text-lg font-semibold">BASS Academy</p>
-              <p className="text-sm text-white/65">Education and training institution</p>
+              <p className="text-sm text-white/65">Education and Training Institution</p>
             </div>
           </div>
           <p className="mt-5 max-w-md text-sm leading-7 text-white/70">

@@ -16,30 +16,9 @@ export function WhyBassSection({ dictionary }: WhyBassSectionProps) {
           Right column: 1062–1794px → Group 16 (732px wide, 359px tall)
           Ratio ≈ 55% / 38% of canvas
         */}
-        <div className="grid items-center gap-12 lg:grid-cols-[1.45fr_1fr]">
+        <div className="flex justify-center">
 
-          {/* ── Left: YouTube embed ── */}
-          <div
-            className="flex items-center justify-center"
-            data-aos="fade-right"
-            data-aos-duration="800"
-          >
-            <div
-              className="w-full overflow-hidden rounded-[2rem] bg-black shadow-panel"
-              style={{ aspectRatio: "16/9", maxWidth: "700px" }}
-            >
-              <iframe
-                src="https://www.youtube.com/embed/bBUPb-I8_r8"
-                title="Company Profile BASS Academy"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-                className="h-full w-full"
-                style={{ border: "none" }}
-              />
-            </div>
-          </div>
-
-          {/* ── Right: Group 16 (732×359px on Figma) ── */}
+          {/* ── Group 16 (732×359px on Figma) ── */}
           <div
             data-aos="fade-left"
             data-aos-duration="800"

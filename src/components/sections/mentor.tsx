@@ -23,16 +23,15 @@ export function MentorSection({ dictionary }: MentorSectionProps) {
           </div>
           <p className="max-w-xl text-muted-foreground">{dictionary.mentors.description}</p>
         </div>
-        <div className="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
           {mentors.map((mentor, i) => (
-            <Card key={mentor.name} className="overflow-hidden p-0" data-aos="fade-up" data-aos-delay={i * 100}>
-              <div className="relative aspect-[4/4.5] bg-surface">
+            <Card key={mentor.name} className="overflow-hidden p-0 w-full sm:w-64" data-aos="fade-up" data-aos-delay={i * 100}>
+              <div className="relative aspect-[4/3.5] bg-surface">
                 <Image src={mentor.image} alt={mentor.name} fill className="object-cover" />
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold">{mentor.name}</h3>
-                <p className="mt-1 text-sm font-medium text-primary">{mentor.role}</p>
-                <p className="mt-3 text-sm leading-7 text-muted-foreground">{mentor.description}</p>
+              <div className="p-4">
+                <h3 className="text-base font-semibold">{mentor.name}</h3>
+                <p className="mt-0.5 text-xs font-medium text-primary">{mentor.role}</p>
               </div>
             </Card>
           ))}
